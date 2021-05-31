@@ -16,6 +16,7 @@ html, body {
     grid-template-columns: 1fr, 2fr;
     align-items: center;
     justify-content: center;
+    padding-bottom: 0px;
 }
 
 
@@ -23,9 +24,11 @@ html, body {
     display: inline-block;
     padding:1em;
     text-transform: uppercase;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-family: Poppins;
-    font-weight: 700
+    font-weight: 700;
+    margin: 0px;
+    border: 0px;
     
 }
 
@@ -43,7 +46,7 @@ html, body {
 #logo {
     height: auto;
     width: 75%;
-    
+    padding: 0px;
 }
 
 .navbar li:hover {
@@ -51,8 +54,9 @@ html, body {
     color:white;
 }
 
-#members:hover {
+#members {
     background-color: #3594EA;
+    color: white;
 }
 
 /* PICTURE HEADER */
@@ -76,12 +80,31 @@ html, body {
     top: 30%;
     width: 100%;
     font-size: 4vw;
-    
+    text-shadow: 0 0 10px rgb(109, 109, 109);
 }
 
 .img-container h2 {
     position: absolute;
     top: 45%;
     width: 100%;
+    font-size: 2.5vw;
+    text-shadow: 0 0 10px rgb(59, 59, 59);
+    color: #C1E030;
+}
+
+
+.intro {
+    justify-content: center;
+    text-align: center;
+    margin: 5% 10% 10% 10%;
+    }
+
+.intro  h3 {
+    font-size: 3vw;
+    color: #3594EA;
+    text-decoration: underline #C1E030;
+}
+
+.intro  p {
     font-size: 2.5vw;
 }
