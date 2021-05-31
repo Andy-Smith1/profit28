@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+}
+
+/* NAV BAR */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr, 2fr;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar li {
+    display: inline-block;
+    padding:1em;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    font-family: Poppins;
+    font-weight: 700
+    
+}
+
+.navbar-left {
+    flex: 1;
+    
+}
+
+.navbar-right {
+    flex: 2;
+    text-align: right;
+    
+}
+
+#logo {
+    height: auto;
+    width: 75%;
+    
+}
+
+.navbar li:hover {
+    background-color: #C1E030;
+    color:white;
+}
+
+#members:hover {
+    background-color: #3594EA;
+}
+
+/* PICTURE HEADER */
+ .img-container {
+     position:relative;
+     text-align: center;
+     padding: 0;
+     margin: 0;
+     color: white;
+ }
+
+ #gym {
+     opacity: 0.5;
+     width: 100%;
+     height: auto;
+     filter:brightness(0.75);
+}
+
+.img-container h1 {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    font-size: 4vw;
+    
+}
+
+.img-container h2 {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    font-size: 2.5vw;
+}
