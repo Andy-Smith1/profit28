@@ -63,6 +63,7 @@ html, body {
 }
 
 /* PICTURE HEADER */
+
  .img-container {
      position:relative;
      text-align: center;
@@ -119,7 +120,8 @@ html, body {
 
 span {
     font-family: material icons; 
-    color: rgb(255, 174, 0)
+    color: rgb(255, 174, 0);
+    font-size: 2vw;
 }
 
 .reviews {
@@ -161,7 +163,33 @@ span {
 
     width: 5vw;
     vertical-align: middle;
-    height: auto;
-    
+    height: auto;   
 }
 
+/*GYM TOUR*/
+
+.gym-tour-container {
+    position: relative;
+    
+    justify-content: center;
+    width:100%;
+}
+
+#treadmills {
+    width: 100%;
+    opacity:40%;
+}
+
+#video {
+    position:absolute;
+    top: 35%;
+    left: 25%;
+    width:auto;
+    height:auto;
+}
+
+.gym-tour-container p {
+    position:absolute;
+    top: 15%;
+    left: 25%;
+}
