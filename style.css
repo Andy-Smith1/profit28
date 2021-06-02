@@ -114,3 +114,54 @@ html, body {
     font-size: 1.5vw;
     color:rgb(126, 125, 125)
 }
+
+/* Reviews */
+
+span {
+    font-family: material icons; 
+    color: rgb(255, 174, 0)
+}
+
+.reviews {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.5em;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    
+    
+}
+
+.review-child {
+    box-shadow: 0 0 10px rgb(145, 145, 145);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.review-child p {
+    color: rgb(126, 125, 125);
+    font-style: italic;
+    font-size: 1.5vw;
+}
+
+.review-child h3 {
+    font-size: 2vw;
+}
+
+#google-reviews {
+    font-size: 1.5vw;
+    text-align:center;
+    padding: 2em;
+}
+
+#google {
+
+    width: 5vw;
+    vertical-align: middle;
+    height: auto;
+    
+}
+
