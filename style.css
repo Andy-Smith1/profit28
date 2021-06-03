@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 html, body {
@@ -7,6 +6,7 @@ html, body {
     padding: 0;
     width: 100%;
     font-family: Poppins, sans-serif;
+    background-color: rgb(245, 245, 245)
 }
 
 /* NAV BAR */
@@ -17,6 +17,7 @@ html, body {
     align-items: center;
     justify-content: center;
     padding-bottom: 0px;
+    background-color: white;
     
     
 }
@@ -120,6 +121,10 @@ html, body {
 
 span {
     font-family: material icons; 
+}
+
+.reviews span {
+    font-family: material icons; 
     color: rgb(255, 174, 0);
     font-size: 2vw;
 }
@@ -127,30 +132,29 @@ span {
 .reviews {
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1.5em;
     margin: auto;
     width: 90%;
     text-align: center;
-    
-    
 }
 
 .review-child {
-    box-shadow: 0 0 10px rgb(145, 145, 145);
+    box-shadow: 0 0 10px rgb(179, 179, 179);
     border-radius: 10px;
     padding: 1em;
+    background-color: white;
 }
 
 .review-child p {
     color: rgb(126, 125, 125);
     font-style: italic;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 .review-child h3 {
-    font-size: 2vw;
+    font-size: 1.5vw;
+    font-weight: 600;
 }
 
 #google-reviews {
@@ -170,26 +174,84 @@ span {
 
 .gym-tour-container {
     position: relative;
-    
-    justify-content: center;
+    display:flex;
     width:100%;
+    height: auto;
+    margin: 0; 
 }
 
 #treadmills {
     width: 100%;
-    opacity:40%;
+    
+    opacity:40%;   
 }
+
 
 #video {
     position:absolute;
-    top: 35%;
-    left: 25%;
-    width:auto;
-    height:auto;
+    top: 25%;
+    left: 27.5%;
+    margin: auto;
+    width:45vw;
+    height:25vw;
+    border: 0;
+    box-shadow:0 0 10px rgb(109, 109, 109);  
 }
 
 .gym-tour-container p {
     position:absolute;
-    top: 15%;
-    left: 25%;
+    top: 10%;
+    left: 39%;
+    font-size: 4vw;
+    font-weight:800;
+    color: white;
+    text-shadow: 0 0 10px rgb(7, 7, 7);
+    margin: 0;
+}
+
+
+/* DIFFERENT SERVICES SECTION */
+
+.offer-container {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 3vh;
+    font-size: 1.5vw;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+}
+
+.offer-container span {
+    font-size: 3em;
+}
+
+#pt {
+    background-color: #3594EA;
+    padding: 1.5em;
+    color: white;
+}
+
+#classes {
+    background-color: #C1E030;
+    padding: 1.5em;
+    color: white;
+}
+
+#equipment {
+    background-color: white;
+    padding: 1.5em;
+}
+
+.more {
+    font-family: poppins;
+    font-weight: 800;
+    text-transform:uppercase;
+    padding: 0.8em;
+    border: 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    
+    
 }
