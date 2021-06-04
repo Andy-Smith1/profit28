@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 html, body {
     margin: 0;
     padding: 0;
@@ -90,9 +90,10 @@ html, body {
 
 .img-container h2 {
     position: absolute;
+    font-family: shadows into light;
     top: 45%;
     width: 100%;
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-shadow: 0 0 10px rgb(59, 59, 59);
     color: #C1E030;
 }
@@ -216,7 +217,6 @@ span {
     display: flex;
     width: 100%;
     margin: 0;
-    padding-bottom: 3vh;
     font-size: 1.5vw;
     text-align: center;
     box-shadow: 0 0 10px black;
@@ -236,11 +236,13 @@ span {
     background-color: #C1E030;
     padding: 1.5em;
     color: white;
+    
 }
 
 #equipment {
     background-color: white;
     padding: 1.5em;
+    
 }
 
 .more {
@@ -252,6 +254,14 @@ span {
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 5px black;
-    
+    font-size: 1.5vw;
+}
+
+#pt button {
+    color: #3594EA;
+}
+
+#classes button {
+    color: #C1E030;
     
 }
