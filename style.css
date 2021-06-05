@@ -270,7 +270,7 @@ span {
 .memberships-section {
     position:relative;
     text-align: center;
-    line-height: 5px;
+    
 }
 
 .memberships-section ul {
@@ -288,9 +288,8 @@ span {
 
 .memberships-section h3 {
     position:absolute;
-    margin: 30px;
     top: 0;
-    left: 37%;
+    left: 38%;
     font-size: 3.5vw;
     color: white;
     text-shadow: 0 0 10px black;
@@ -303,24 +302,35 @@ span {
     justify-content: space-evenly;
     position: absolute;
     width: 100%;
-    top:15%;
-    ;
+    top:25%;
+    
 }
 
 .memberships-container > div {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: white;
-    padding-right: 2em;
-    padding-left: 2em;
     padding-top: 0;
     padding-bottom: 0;
     font-size: 1.5vw;
+    box-shadow: 0 0 10px rgb(83, 83, 83)
 }
 
 .memberships-container h4 {
-    
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    text-transform: uppercase;
+    background-color:#C1E030;
     margin: 0;
-    
+    padding: 1em;  
+    color: white;
+}
+
+.memberships-container h5 {
+    font-size: 2vw;
+    padding: 0;
+    margin: 1em;
+}
+
+#membership-2 h4{
+    background-color: #3594EA;
 }
