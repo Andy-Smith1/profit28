@@ -326,11 +326,55 @@ span {
 }
 
 .memberships-container h5 {
-    font-size: 2vw;
+    font-size: 2.5vw;
     padding: 0;
-    margin: 1em;
+    margin: 0.5em;
+    font-weight:800;
+    
 }
 
 #membership-2 h4{
     background-color: #3594EA;
+}
+
+/* WHERE TO FIND US */
+
+.where-container {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+    
+}
+
+.where-container > div {
+    justify-content:flex-end;
+    
+    border: 1px solid black;
+
+}
+
+.location ul {
+    
+    font-size: 1vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.location {
+    border: 1px solid black;
+    padding-top: 5vh;
+    padding-right: 15vw;
+    padding-left: 15vw;
+    padding-bottom: 5vh;
+}
+
+
+
+
+#map {
+    justify-content: center;
+    width: 80%;
+    
+    
 }
