@@ -342,14 +342,14 @@ span {
 .where-container {
     display: flex;
     justify-content: flex-end;
-    border: 1px solid black;
+    padding: 2em;
     
 }
 
 .where-container > div {
     justify-content:flex-end;
     
-    border: 1px solid black;
+    
 
 }
 
@@ -362,13 +362,17 @@ span {
 }
 
 .location {
-    border: 1px solid black;
     padding-top: 5vh;
     padding-right: 15vw;
     padding-left: 15vw;
     padding-bottom: 5vh;
+    width: 10em;
 }
 
+.location h4 {
+    font-size: 1.5vw;
+    color: #3594EA;
+}
 
 
 
