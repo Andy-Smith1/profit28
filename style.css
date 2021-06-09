@@ -379,6 +379,38 @@ span {
 #map {
     justify-content: center;
     width: 80%;
+}
+
+footer {
+    background-color: #3594EA;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    text-align: start;
     
+}
+
+.footer-container ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    text-align: start;
+    font-size: 12px;
+}
+
+.footer-container p {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+i {
     
+    padding: 1em;
+    color: white;
 }
