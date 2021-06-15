@@ -16,10 +16,7 @@ body {
     flex-direction: column;
 }
 
-content {
-    
 
-}
 
 /* NAV BAR */
 .navbar {
@@ -433,7 +430,6 @@ i {
     font-size: 0.75vw;
     padding-left: 14em;
     margin: 0;
-    padding-bottom:
 }
 
 .policy p {
@@ -464,32 +460,77 @@ i {
     padding-bottom: 2rem;
 }
 
+.form-container * {
+    box-sizing: border-box;
+}
+
 .form-container {
-    justify-content: center;
-    max-width: 50vw;
-    overflow:hidden;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
+    color: rgb(126, 125, 125);
     display: flex;
-    box-shadow: 0 0 10px black;
-    background-color: white;
-}
-
-.form-container div {
+    flex-direction: column;
+    margin: 3em;
     font-size: 14px;
-    width: 100%;
-    padding: 1em;
-    width: 100%;
-    }
-
-.form-container button {
-    
-    margin-bottom: 1rem;
 }
 
-textarea {
-    width: 20vw;
-    height: 10vh;
-    resize: none;
+.row-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    padding-bottom: 2em;
     
+}
+
+
+
+.form-container > * {
+    padding: 3em;
+    background-color: white;
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.contact-form {
+    width: 80%;
+    box-shadow: 0 0 20px 0 rgb(170, 170, 170);
+    border-radius: 10px;
+}
+
+.contact-form input {
+    width: 100%;
+    border: 1px solid rgb(214, 214, 214);
+    box-shadow: 0 0 10px rgb(207, 207, 207);
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 8rem;
+    resize: none;
+    border: 1px solid rgb(214, 214, 214);
+    box-shadow: 0 0 10px rgb(207, 207, 207);
+    border-radius: 5px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#submit {
+    border: 0;
+    background-color: #3594EA;
+    color:white;
+    font-family: poppins, sans-serif;
+    font-weight: 600; 
+    box-shadow: 0 0 10px rgb(207, 207, 207);
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+
+#submit:hover {
+    cursor: pointer;
+}

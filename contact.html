@@ -38,28 +38,27 @@
 <!-- FORM -->
 
     <div class="form-container">
-       <form action="https://formsubmit.co/andy151993@hotmail.com" method="POST">
-           <div>
+       <form class="contact-form" action="https://formsubmit.co/andy151993@hotmail.com" method="POST">
+           <div class="row-one">
+            <div>
                <label for="name">Name*</label>
                <br>
                <input type="text" name="name" required>
            </div>
+           
            <div>
                <label for="email">Email Address*</label>
                <br>
                <input type="email" name="email" required>
+            </div>
            </div>
-           <div>
-               <label for="phone">Phone (optional)</label>
-               <br>
-               <input type="tel" name="phone" required>
-           </div>
+
            <div>
                <label for="message">Message</label>
-               <br>
+                <br>
                <textarea id="message" name="message" required></textarea>
            </div>
-           <div><button>Send</button></div>
+           <div><button id="submit">Submit</button></div>
        </form>
     </div>
 
