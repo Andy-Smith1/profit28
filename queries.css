@@ -1,0 +1,144 @@
+@media screen and (max-width: 600px) {
+
+    #logo {
+        width: 150px;
+    }
+
+
+    /*IMAGE CONTAINER*/
+    .img-container {
+        overflow: hidden;
+        position:relative;
+    }
+
+    #gym {
+
+        height: 50vh;
+        width: auto;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+    .img-container h1 {
+        top: 15%;
+        font-size: 30px;
+    }
+
+    .img-container h2 {
+        font-size: 24px;
+        top: 60%;
+    }
+    
+    /*INTRO */
+
+    .intro h3 {
+        font-size: 24px;
+    }
+
+    .intro p {
+        font-size: 18px;
+    }
+
+    /* REVIEWS */
+
+    .reviews {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        height: auto;
+        font-size: 14px;
+    }
+    .reviews span {
+        font-size: 14px;
+    }
+    .review-child p {
+        font-size: 16px;
+    }
+    .review-child h3 {
+        font-size: 16px;
+    }
+
+    #google-reviews p {
+        font-size: 18px;
+    }
+
+
+    /*GYM TOUR */
+
+    .gym-tour-container {
+        overflow: hidden;
+        position:relative;
+    }
+
+    .gym-tour-container p {
+        font-size: 24px;
+        text-align: center;
+        left: 33%;
+    }
+
+    #treadmills {
+        height: 60vh;
+        width: auto;
+    }
+
+    #video {
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        top: 33%;
+        left: 5vw;
+        margin: auto;
+        
+    }
+
+
+    /*WHAT WE OFFER */
+
+    .offer-container {
+        flex-wrap: wrap;
+        font-size: 18px;
+    }
+
+    .offer-container div p {
+        font-size: 18px;
+    }
+    .offer-container div button {
+        font-size: 18px;
+    }
+
+ 
+    /* FOOTER */
+    .row-one{
+        display: block;
+    }
+
+    .row-one div {
+        padding-bottom: 1em;
+    }
+
+    .footer-container {
+        display: grid;
+        justify-content: center;
+        margin: auto;
+        font-size: 12px;
+        padding-bottom: 1em;
+    }
+
+    footer a, p {
+        font-size: 8px;
+    }
+
+    .footer-container p, li {
+        font-size: 12px;
+    }
+    
+    .policy {
+        padding: 0;
+        justify-content: center;
+        margin-top: 3em;
+        text-align: center;
+        
+    }
+
+
+}
