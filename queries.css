@@ -4,6 +4,34 @@
         width: 150px;
     }
 
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-right {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-right.active {
+        display:flex;
+    }
+
+    .navbar-right li {
+        flex-direction:column;
+        text-align: center;
+        padding: .5rem 1rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-right ul {
+        flex-direction: column;
+        width: 100%;
+    }
 
     /*IMAGE CONTAINER*/
     .img-container {
@@ -83,7 +111,7 @@
 
     #video {
         width: 90%;
-        height: auto;
+        height: 50%;
         justify-content: center;
         top: 33%;
         left: 5vw;
@@ -96,14 +124,83 @@
 
     .offer-container {
         flex-wrap: wrap;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .offer-container div p {
-        font-size: 18px;
+        font-size: 16px;
     }
     .offer-container div button {
-        font-size: 18px;
+        font-size: 16px;
+    }
+
+    /* MEMBERSHIPS */
+    
+   .memberships-section h3 {
+       padding-top: 0.5em;
+       font-size: 5vw;
+       left: 33%;
+   }
+
+    .memberships-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 6em;
+    }
+
+    .memberships-container div {
+        width: 50%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .memberships-container div h4 {
+        font-size: 12px;
+    }
+
+    .memberships-container div h5 {
+        font-size: 14px;
+    }
+
+    .memberships-container div li {
+        font-size: 12px;
+        padding: 1em;
+    }
+
+    #bikes {
+        display: none;
+        height: 60vh;
+        width: auto;
+    }
+
+    /* WHERE TO FIND US */
+
+    .where-container {
+        display: flex;
+        flex-direction: rows;
+        flex-wrap: wrap;
+        text-align: left;
+        justify-content: center;
+        margin: auto;
+        gap: 1em;
+        padding-top: 2em;
+    }
+
+    .location h4 {
+        font-size: 16px;
+    }
+
+    .location ul {
+        font-size: 14px;
+    }
+
+    #map {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 100%;
+        height: auto;
     }
 
  
