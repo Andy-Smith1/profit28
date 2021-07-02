@@ -101,7 +101,7 @@
     .gym-tour-container p {
         font-size: 24px;
         text-align: center;
-        left: 33%;
+        left: 35%;
     }
 
     #treadmills {
@@ -140,6 +140,7 @@
        padding-top: 0.5em;
        font-size: 5vw;
        left: 33%;
+       padding-bottom: 1em;
    }
 
     .memberships-container {
@@ -147,7 +148,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        padding-top: 6em;
+        padding-top: 8em;
     }
 
     .memberships-container div {
@@ -238,6 +239,24 @@
     }
 
 
+    /* ABOUT US PAGE */
 
+    .pt-cards-container {
+        display:flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .pt-cards {
+        min-height: 450px;
+    }
+    
+    .pt-cards p {
+        font-size: 12px;
+    }
+    
+    .pt-socials p {
+        font-size: 10px;
+    }
 
 }
