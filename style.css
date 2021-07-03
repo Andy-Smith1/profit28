@@ -697,6 +697,30 @@ i {
     margin: auto;
 }
 
+#facilities-header {
+    background-color: #3594EA;
+    color:white;
+    margin:0;
+    padding-top: 1em;
+    font-size: 36px;
+    text-align: center;
+}
+
+#facilities-header h3 {
+    padding:0;
+    margin: 0;
+}
+
+#facilities-about {
+    color:white;
+    background-color: #3594EA;
+    margin: auto;
+    padding: 1em 2em 2em 2em;
+    font-size: 14px;
+    text-align: center;
+    max-width: 1200px;
+}
+
 .gallery {
     
     display: grid;
@@ -742,3 +766,111 @@ i {
     align-items: center;
 }
 
+/*CLASSES SECTION*/
+
+.classes-banner {
+    background-color: #3594EA;
+    color:white;
+    margin:0;
+    padding-top: 1em;
+    font-size: 36px;
+    text-align: center;
+}
+
+.classes-banner  h3 {
+    padding:0;
+    margin: 0;
+}
+
+.classes-banner p {
+    color:white;
+    background-color: #3594EA;
+    margin: auto;
+    padding: 1em 2em 2em 2em;
+    font-size: 14px;
+    text-align: center;
+    max-width: 1200px;
+}
+
+
+
+.rig-training { 
+    position: relative;
+    background-image:    linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(245,245,245,1) 70%), url(images/11.png);
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.rig-training p {
+    position: absolute;
+    top: 35%;
+    font-size: 1rem;
+    width: 50%;
+    padding-left: 40px;
+}
+
+.rig-training h5 {
+    position:absolute;
+    top: 15%;
+    font-size: 1.25rem;
+    padding-left: 40px;
+
+}
+
+.yoga {
+    position:relative;
+    background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(245,245,245,1) 70%), url(images/yoga-mats.png);
+    width:100%;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.yoga p {
+    text-align: right;
+    position: absolute;
+    top: 35%;
+    right: 40px;
+    font-size: 1rem;
+    width: 50%;
+    padding-left: 3rem;
+}
+
+.yoga h5 {
+    text-align: right;
+    position:absolute;
+    top: 15%;
+    right: 40px;
+    font-size: 1.25rem;
+    padding-left: 3rem;
+}
+
+.spin-class {
+    position: relative;
+    background-image:    linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(245,245,245,1) 70%), url(images/spinstudio.png);
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spin-class h5 {
+    position:absolute;
+    top: 15%;
+    font-size: 1.25rem;
+    padding-left: 40px;
+}
+
+.spin-class p {
+    position: absolute;
+    top: 35%;
+    font-size: 1rem;
+    width: 50%;
+    padding-left: 40px;
+}
